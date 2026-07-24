@@ -22,7 +22,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = 8920386800:AAEMG39dLXKi9W2qjLo0uiljRqYO2v5tNbg
 PROVIDER_TOKEN = os.getenv("PROVIDER_TOKEN")  # токен платёжного провайдера Telegram
 ADMIN_ID = os.getenv("ADMIN_ID")  # ваш telegram user id для уведомлений
 CURRENCY = os.getenv("CURRENCY", "RUB")
